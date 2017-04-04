@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main1"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:baselineAligned="true">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+        android:id ="@+id/txt01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#00f"
+        android:textSize="30dp"
+        android:background="#0ff"
+        android:text="텍스트"
+            android:layout_weight="1"/>
+
+        <TextView
+        android:id ="@+id/txt02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#f00"
+        android:textSize="30dp"
+        android:background="#f0f"
+        android:text="텍스트"
+            android:layout_weight="1"
+        />
+
+        <TextView
+        android:id ="@+id/txt03"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:text="텍스트"
+            android:layout_weight="1"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        >
+
+        <TextView
+            android:id ="@+id/txt04"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="30dp"
+            android:background="#ff0"
+            android:text="텍스트"
+            android:gravity="center"
+            android:layout_weight="1"
+            />
+
+
+        <TextView
+            android:id ="@+id/txt05"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="30dp"
+            android:background="#35a"
+            android:text="텍스트"
+            android:gravity="center"
+            android:layout_weight="1"
+            />
+    </LinearLayout>
+
+</LinearLayout>

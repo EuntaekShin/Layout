@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/AdapterView/AdapterView.iml" filepath="$PROJECT_DIR$/AdapterView/AdapterView.iml" />
+      <module fileurl="file://$PROJECT_DIR$/AdapterviewEX/AdapterviewEX.iml" filepath="$PROJECT_DIR$/AdapterviewEX/AdapterviewEX.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ButtonRadioImageView/ButtonRadioImageView.iml" filepath="$PROJECT_DIR$/ButtonRadioImageView/ButtonRadioImageView.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CunstomView1/CunstomView1.iml" filepath="$PROJECT_DIR$/CunstomView1/CunstomView1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CustomPaint/CustomPaint.iml" filepath="$PROJECT_DIR$/CustomPaint/CustomPaint.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CustomView/CustomView.iml" filepath="$PROJECT_DIR$/CustomView/CustomView.iml" />
+      <module fileurl="file://$PROJECT_DIR$/FrameLayout/FrameLayout.iml" filepath="$PROJECT_DIR$/FrameLayout/FrameLayout.iml" />
+      <module fileurl="file://$PROJECT_DIR$/GalleryView/GalleryView.iml" filepath="$PROJECT_DIR$/GalleryView/GalleryView.iml" />
+      <module fileurl="file://$PROJECT_DIR$/GridView/GridView.iml" filepath="$PROJECT_DIR$/GridView/GridView.iml" />
+      <module fileurl="file://$PROJECT_DIR$/IntroduceandLeanerLayout/IntroduceandLeanerLayout.iml" filepath="$PROJECT_DIR$/IntroduceandLeanerLayout/IntroduceandLeanerLayout.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LinearLayout.iml" filepath="$PROJECT_DIR$/LinearLayout.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LinearLayoutEx1/LinearLayoutEx1.iml" filepath="$PROJECT_DIR$/LinearLayoutEx1/LinearLayoutEx1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/RelativeLinearLayout/RelativeLinearLayout.iml" filepath="$PROJECT_DIR$/RelativeLinearLayout/RelativeLinearLayout.iml" />
+      <module fileurl="file://$PROJECT_DIR$/TableLayoutFrameLayout/TableLayoutFrameLayout.iml" filepath="$PROJECT_DIR$/TableLayoutFrameLayout/TableLayoutFrameLayout.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+    android:id="@+id/txt_title"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="[회원가입]"
+    android:layout_margin="10dp"
+    android:textSize="20dp"/>
+
+    <RelativeLayout
+        android:id="@+id/r1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt_title">
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/txt_id"
+            android:textSize="20dp"
+            android:text="ID :"
+            android:gravity="right"
+            android:layout_centerVertical="true"/>
+
+        <EditText
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:hint = "아이디를 입력하세요"
+            android:layout_toRightOf="@+id/txt_id"
+
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_centerVertical="true"/>
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/r2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/r1">
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/txt_pw"
+            android:textSize="20dp"
+            android:text="PW :"
+            android:gravity="right"
+            android:layout_centerVertical="true"/>
+
+        <EditText
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:hint = "비밀번호를 입력해주세요"
+            android:layout_toRightOf="@+id/txt_pw"
+            android:layout_alignBaseline="@+id/txt_pw"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_centerVertical="true"/>
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:id="@+id/r3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/r2">
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/txt_pwconfirm"
+            android:textSize="20dp"
+            android:text="PW확인 :"
+            android:gravity="right"
+            android:layout_centerVertical="true"/>
+
+        <EditText
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:hint = "비밀번호를 입력해주세요"
+            android:layout_toRightOf="@+id/txt_pwconfirm"
+            android:layout_alignBaseline="@+id/txt_pwconfirm"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_centerVertical="true"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/r4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/r3">
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/txt_name"
+            android:textSize="20dp"
+            android:text="이름 :"
+            android:gravity="right"
+            android:layout_centerVertical="true"/>
+
+        <EditText
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:hint = "이름을 입력해주세요"
+            android:layout_toRightOf="@+id/txt_name"
+            android:layout_alignBaseline="@+id/txt_name"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_centerVertical="true"/>
+    </RelativeLayout>
+
+
+
+
+
+
+</RelativeLayout>

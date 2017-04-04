@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name1"
+        android:textColor="#f00"
+        android:textSize="20dp"
+        android:textStyle="bold|italic"
+        android:typeface="monospace"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name1"
+        android:textColor="#8f00"
+        android:textSize="20dp"
+        />
+
+    <Button
+        android:id="@+id/btn1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="test"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textColor="#800f"
+        android:background="@xml/button_selector"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical|center_horizontal"
+        android:paddingTop="20dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="독서"
+            android:textSize="20dp"
+            android:textStyle="italic"
+            android:typeface="serif"
+            android:paddingRight="5dp"
+            android:textColor="#8888aa"
+            android:layout_weight="1"/>
+        <CheckBox
+            android:id="@+id/read"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingRight="10dp"
+            android:layout_weight="1"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="여행"
+            android:textSize="20dp"
+            android:textStyle="italic"
+            android:typeface="serif"
+            android:paddingRight="5dp"
+            android:textColor="#8888aa"
+            android:layout_weight="1"/>
+
+        <CheckBox
+            android:id="@+id/journey"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingRight="10dp"
+            android:layout_weight="1"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="운동"
+            android:textSize="20dp"
+            android:textStyle="italic"
+            android:typeface="serif"
+            android:paddingRight="5dp"
+            android:textColor="#8888aa"
+            android:layout_weight="1"/>
+        <CheckBox
+            android:id="@+id/workout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingRight="10dp"
+            android:layout_weight="1"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Moive"
+            android:textSize="20dp"
+            android:textStyle="italic"
+            android:typeface="serif"
+            android:paddingRight="5dp"
+            android:textColor="#8888aa"
+            android:layout_weight="1"/>
+        <CheckBox
+            android:id="@+id/moive"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingRight="10dp"
+            android:layout_weight="1"/>
+
+
+    </LinearLayout>
+
+    <RadioGroup
+        android:id="@+id/rg1"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp">
+
+        <RadioButton
+            android:id="@+id/radio1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="MAN"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="#00f" />
+
+        <RadioButton
+            android:id="@+id/radio2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="WOMAN"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="#f00"
+            android:layout_marginLeft="10dp" />
+    </RadioGroup>
+
+
+    <EditText
+        android:id="@+id/testInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:hint="Write down anything"
+        android:layout_margin="10dp"
+        android:inputType="textCapWords"
+        />
+
+    <ImageView
+        android:id="@+id/img1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="50dp"
+        android:background="@mipmap/ic_launcher"
+        />
+
+</LinearLayout>

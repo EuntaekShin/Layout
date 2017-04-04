@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="distributionType" value="LOCAL" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="gradleHome" value="C:\Program Files\Android\Android Studio\gradle\gradle-2.14.1" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/AdapterView" />
+            <option value="$PROJECT_DIR$/AdapterviewEX" />
+            <option value="$PROJECT_DIR$/ButtonRadioImageView" />
+            <option value="$PROJECT_DIR$/CunstomView1" />
+            <option value="$PROJECT_DIR$/CustomPaint" />
+            <option value="$PROJECT_DIR$/CustomView" />
+            <option value="$PROJECT_DIR$/FrameLayout" />
+            <option value="$PROJECT_DIR$/GalleryView" />
+            <option value="$PROJECT_DIR$/GridView" />
+            <option value="$PROJECT_DIR$/IntroduceandLeanerLayout" />
+            <option value="$PROJECT_DIR$/LinearLayoutEx1" />
+            <option value="$PROJECT_DIR$/RelativeLinearLayout" />
+            <option value="$PROJECT_DIR$/TableLayoutFrameLayout" />
+          </set>
+        </option>
+        <option name="resolveModulePerSourceSet" value="false" />
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>
